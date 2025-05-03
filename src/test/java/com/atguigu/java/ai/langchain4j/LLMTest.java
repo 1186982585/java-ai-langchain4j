@@ -40,7 +40,6 @@ public class LLMTest {
     public void testSpringBoot() {
         String answer = openAiChatModel.chat("你是谁?");
         System.out.println(answer);
-        System.out.println(System.getenv("DEEP_SEEK_API_KEY") );
     }
 
     @Resource
